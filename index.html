@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music App | Rodson_desu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Rodson_<span>desu</span> </span></div>
+    <nav>
+      
+      <a href="index.html">Parole de musique</a>
+      <a href="sugestije.html">Extrait de musique</a>
+      <!-- <a href="video.html">extrait de video de musique</a> -->
+      <!-- <a href="#">/a> -->
+    </nav>
+  </header>
+
+  <div class="background"></div>
+
+  <div class="wrapper">
+    <h1>Parole des chansons</h1>
+
+    <form id="forma-za-tekstove">
+      <div class="izvodjac-container">
+        <input id="izvodjac" placeholder="Artiste" required>
+        <label for="izvodjac">Artiste</label>
+      </div>
+
+      <div class="pesma-container">
+        <input id="pesma" placeholder="Titre de la chanson" required>
+        <label for="pesma">Titre de la chanson</label>
+      </div>
+
+      <div class="button-container">
+          <button id="potrazi">Recherche</button>
+      </div>
+    </form>
+
+    <div class="rezultat-container">
+      <h2 id="naslov"></h2>
+      <p id="rezultat"></p>
+    </div>
+  </div>
+
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
